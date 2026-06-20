@@ -49,6 +49,9 @@ body{
 .card button{
     margin-bottom: 20px;
 }
+body{
+    position: center;
+}
 
 
 
