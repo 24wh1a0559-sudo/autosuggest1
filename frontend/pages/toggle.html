@@ -3,26 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toggle Card</title>
+    <title>Auto Suggest</title>
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-
     <div class="navbar">
         <a href="/">Home</a>
         <a href="/pages/card.html">Card</a>
         <a href="/pages/toggle.html">Toggle</a>
-        <a href="#">Random User</a>
+        <a href="">Random user</a>
     </div>
-
     <div class="card">
-        <img id="userImg" src="../images/john.png" alt="User Image">
-        <h2 id="userName">John Doe</h2>
-        <p id="gender">Male</p>
-        <button id="toggleBtn">Toggle User</button>
+        <img id ="user-img"
+        src="../images/john.png" alt="user image">
+        <h2 id="user-name" >John doe</h2>
+        <p id="user-gender" >Male</p>
+        <button onclick="toggle()" >Toggle</button>
     </div>
-
-    <script src="../js/index.js"></script>
-
+    
+    <script src="js/index.js"></script>
+    <script src="../js/toggle.js"></script>
 </body>
 </html>

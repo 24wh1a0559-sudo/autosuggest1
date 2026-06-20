@@ -46,10 +46,9 @@ body{
 .card img {
     width:100%;
 }
-button {
-    padding: 10px 20px;
-    cursor: pointer;
-    margin-top: 10px;
+.card button{
+    margin-bottom: 20px;
 }
+
 
 
